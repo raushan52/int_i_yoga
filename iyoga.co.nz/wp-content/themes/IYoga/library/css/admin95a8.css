@@ -1,0 +1,83 @@
+
+/*@import url("style.css");*/
+
+
+:root {
+	--primary: #5e72e4;
+	--dark: #363b3f;
+}
+
+
+/*!
+=========================================================
+* Menu
+=========================================================
+*/
+#toplevel_page_theme-general-settings a{
+	background-color: var(--primary);
+	background: var(--primary) !important;
+}
+
+
+/*!
+=========================================================
+* Buttons
+=========================================================
+*/
+.wp-core-ui .button-primary{
+	background-color: var(--primary);
+	border-color: var(--primary);
+}
+
+
+/*!
+=========================================================
+* Notices
+=========================================================
+*/
+
+.notice{
+
+}
+
+.notice.notice-success,
+.notice.updated{
+	border-color: #2dce89;
+	background-color: #2dce89;
+	color: #fff;
+}
+
+.notice .notice-dismiss:before{
+	color: #fff;
+}
+
+
+/*!
+=========================================================
+* ACF
+=========================================================
+*/
+
+/* ============== Publishing Actions ============== */
+.toplevel_page_theme-general-settings #publishing-action{
+	float: none !important;
+}
+
+
+
+
+/* ============== Postbox ============== */
+.postbox{
+	border: .0625rem solid rgba(0, 0, 0, .05);
+	border-radius: .25rem;
+	background-color: #fff;
+	background-clip: border-box;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
+}
+
+/* ============== Postbox ============== */
+.acf-tab-wrap.-left .acf-tab-group li.active a{
+	background-color: var(--primary) !important;
+	color: #fff !important;
+}
+
